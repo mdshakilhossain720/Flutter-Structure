@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_form_builder/flutter_form_builder.dart';
 
 class CustomFormBuilderTextField extends StatelessWidget {
   final String name;
@@ -51,13 +52,13 @@ class CustomFormBuilderTextField extends StatelessWidget {
             child: Align(
               alignment: Alignment.centerLeft,
               child: Padding(
-                padding: EdgeInsets.symmetric(horizontal: 24.w, vertical: 16.h),
+                padding: EdgeInsets.symmetric(horizontal: 24, vertical: 16),
                 child: RichText(
                   text: TextSpan(
                     text: hintText,
                     style: TextStyle(
                       color: Color(0xFF6D6D6D),
-                      fontSize: 16.sp,
+                      fontSize: 16,
                       fontWeight: FontWeight.w400,
                     ),
                     children: [
